@@ -7,7 +7,7 @@
 #
 # Usage:
 #   python WaterRocketDraft1.py
-# or import WaterRocketSim from this file and use it in your own scripts.
+# or import WaterRocketSim from this file and use it on other scripts.
 
 import math
 import matplotlib.pyplot as plt
@@ -18,7 +18,7 @@ class WaterRocketSim:
                  V_bottle_liters=0.52,     # total internal volume (L)
                  V_water0_liters=0.26,     # initial water volume (L)
                  P0_abs_bar=5.0,           # initial absolute pressure (bar). ~4 bar gauge + 1 bar atm
-                 nozzle_diameter_mm=10.0,  # nozzle diameter (mm)
+                 nozzle_diameter_mm=8.0,  # nozzle diameter (mm)
                  Cd_nozzle=0.9,            # nozzle discharge coefficient
                  m_dry=0.20,               # dry mass (kg): bottle + payload
                  T0_K=293.15,              # initial air temperature (K)
@@ -196,7 +196,7 @@ if __name__ == "__main__":
         V_bottle_liters=0.52,
         V_water0_liters=0.26,
         P0_abs_bar=5.0,           # 4 bar gauge + 1 bar atm
-        nozzle_diameter_mm=10.0,
+        nozzle_diameter_mm=20.0,
         Cd_nozzle=0.9,
         m_dry=0.20,
         T0_K=293.15,
